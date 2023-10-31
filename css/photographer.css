@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo-ph {
+    height: 50px;
+    margin-left: 60px;
+
+}
+#contact_modal {
+    display: none;
+}
+
+.photograph-header {
+    background-color: #FAFAFA;
+    /* background-color: #7bca3f; */
+    height: 300px;
+    margin: 0 55px;
+}
+
+.contact_button {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 11px;
+    width: 170px;
+    height: 70px;
+    border: none;
+    background-color: #901C1C;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal {
+    border-radius: 5px;
+    background-color: #DB8876;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    margin: auto;
+}
+
+.modal header {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.modal header img {
+    cursor: pointer;
+}
+
+.modal header h2{
+    font-size: 64px;
+    font-weight: normal;
+    text-align: center;
+}
+#name_form{
+    font-size: 64px;
+    font-weight: normal;
+    width: 100%;
+    margin-top: 0px;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form label {
+    color: #312E2E;
+    font-size: 36px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: self-start;
+    margin-bottom: 26px;
+}
+
+form input,form textarea {
+    width: 100%;
+    height: 68px;
+    font-size: 35px;
+    border: none;
+    border-radius: 5px;
+}
+#message {
+    width: 100%;
+    height: 80px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: "DM Sans", sans-serif;
+  }
+
+
+
+
+  /* css pour select */
+   .filter {
+    margin: 20px 15px;
+    display: flex;
+    align-items: center;
+  }
+  .tri {
+    margin: 30px 30px 30px 40px;
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+  }
+
+ 
+ div.filter #select{
+  max-height: 64px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  background-color: #901C1C;
+  padding: 10px; 
+  font-size: 27px;
+  width:200px;
+  height: 64px;
+  }
+/* css pour photographers header */
+
+.infos_photograph  {
+  margin: 20px 20px;
+}
+.infos_photograph h2 {
+    color: #D3573C;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.city_photograph{
+    color: #901c1c;
+    font-size: 20px;
+    margin-bottom: 10px;
+ }
+ .tagline_photograph{
+    color: #525252;
+    font-size: 15px;
+    margin-bottom: 10px;
+
+ }
+.profil_photograph {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+    margin: 20px 15px;
+}
+.profil_photograph a {
+text-decoration: none;
+margin : 20px 20px;
+}
+.profil_photograph img {
+height: 200px;
+width: 200px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+
+
+
+
+/* //////////////////////////////// */
+#main{
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    margin: 0;
+}
+
+.photograph-content{
+    display: grid;
+    gap: 0px; 
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+}
+
+.image_video img,.image_video video{
+    display: flex;
+    flex-direction: column;
+    /* padding: 5px 20px 0; */
+    cursor: pointer;
+     border-radius: 5px;
+     height: 370px;
+     object-fit: cover;
+     width: 100%;
+}
+figcaption h2{
+    color: #901c1c;
+    font-size: 20px;
+ margin-bottom: 10px;
+}
+figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.like{
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #901C1C;
+    font-size: 16px;
+}
